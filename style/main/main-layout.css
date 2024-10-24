@@ -1,5 +1,20 @@
-.main-container {
-max-width: 51.25rem;
-overflow: auto;
+main {
+  max-width: 100%;
+  height: auto;
+  overflow: auto;
 
+  background-color: var(--color-shape-body);
+
+  margin: 1.25rem 1.25rem 1.25rem 0;
+  border-radius: 0.75rem;
+
+  & .main-container {
+    margin: 5rem 8.25rem ;
+  }
 }
+
+fieldset {
+  border: none;
+}
+
+

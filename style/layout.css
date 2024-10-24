@@ -4,6 +4,7 @@
 
   height: 100vh;
   overflow: hidden;
+  gap: 1.25rem;
 }
 
 main {
