@@ -1,0 +1,15 @@
+.aside-container {
+  display: flex;
+  justify-content: center;
+  
+  margin: 1.25rem;
+
+  max-width: 25rem;
+  height: 45.5rem;
+
+  background-image: url(../../assets/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.75rem;
+}

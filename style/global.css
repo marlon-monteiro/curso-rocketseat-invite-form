@@ -6,6 +6,8 @@
 }
 
 :root {
+  --color-background-project: #1e1e1e;
+
   --color-brand-light: #59b2ff;
   --color-brand-mid: #3487cf;
   --color-brand-dark: #1d6fb6;
@@ -36,4 +38,14 @@
   --font-leckerli: "Leckerli One", cursive;
   --font-baloo-2: "Baloo 2", sans-serif;
   --font-open-sans: "Open Sans", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

@@ -1,0 +1,28 @@
+header {
+
+  max-width: 21rem;
+  height: 9rem;
+  margin: 2rem 2rem auto;
+}
+
+img {
+  width: 2.8rem;
+  height: 3rem;
+}
+
+h1 {
+  font-family: var(--font-leckerli);
+  color: var(--color-pink);
+  font-size: 2.5rem;
+
+  margin-top: 1rem;
+}
+
+p {
+  font-family: var(--font-open-sans);
+  color: var(--color-text-heading);
+  font-size: 1rem;
+
+  margin-top: .25rem;
+  font-weight: 100;
+}
