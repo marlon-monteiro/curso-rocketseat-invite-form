@@ -19,10 +19,6 @@ main {
   }
 }
 
-fieldset {
-  /* border: none; */
-}
-
 label {
   font: 0.85rem var(--font-open-sans);
   color: var(--color-text-body);
@@ -36,6 +32,7 @@ input {
   background-color: var(--color-input-base);
   border: var(--color-input-stroke) solid 1px;
   border-radius: 0.5rem;
+  color: var(--color-input-placeholder);
 
   &::placeholder {
     color: var(--color-input-placeholder);

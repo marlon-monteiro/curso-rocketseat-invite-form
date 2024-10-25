@@ -33,7 +33,7 @@
   background-color: var(--color-input-stroke);
 
   & label {
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
@@ -69,4 +69,14 @@
 
 .radio-online .radio-image {
   background-image: url(../../components/video-off.png);
+}
+
+
+.description {
+  margin-top: 1rem;
+
+  & input {
+    height: 8.5rem;
+    padding-bottom: 6rem;
+  }
 }
