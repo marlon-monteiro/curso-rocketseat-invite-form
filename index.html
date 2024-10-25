@@ -59,9 +59,60 @@
 
             <div class="event-name">
               <label for="event-name">
-              Título
+                Título
               </label>
               <input id="event-name" name="event-name" type="text" placeholder="Nome do evento">
+            </div>
+
+            <div class="grid start-finish">
+              <div class="start">
+                <label for="">
+                  Início
+                </label>
+                <input type="date">
+              </div>
+              <div class="finish">
+                <label for="">
+                  Fim
+                </label>
+                <input type="date">
+              </div>
+            </div>
+
+            <div class="grid type-local">
+              <div class=" grid type">
+
+                <label>
+                  Tipo
+                </label>
+
+                <div class="grid radio-presencial-online">
+
+                  <div class="button-presencial-online radio-presencial">
+                    <input id="presencial" type="radio" name="shift-event-type">
+                    <label for="presencial">
+                      <div class="radio-image"></div>
+                      Presencial
+                    </label>
+                  </div>
+
+                  <div class="button-presencial-online radio-online">
+                    <input id="online" type="radio" name="shift-event-type">
+                    <label for="online">
+                      <div class="radio-image"></div>
+                      Online
+                    </label>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="local">
+                <label>
+                  Local
+                </label>
+                <input type="text" placeholder="Link ou endereço">
+              </div>
             </div>
 
           </fieldset>

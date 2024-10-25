@@ -1,18 +1,72 @@
-.event-name label {
-  font: 0.85rem var(--font-open-sans);
-  color: var(--color-text-body);
+.start-finish {
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
 }
 
-.event-name input {
-  width: 100%;
-  margin-top: 0.75rem;
-  padding: 0.8rem 0.8rem;
-  font: 1rem var(--font-open-sans);
-  background-color: var(--color-input-base);
-  border: var(--color-input-stroke) solid 1px;
-  border-radius: 0.5rem;
+.type-local {
+  margin-top: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
 
-  &::placeholder {
-    color: var(--color-input-placeholder);
+.radio-presencial-online {
+  grid-template-columns: 1fr 1fr;
+  margin-top: 12px;
+  border: 1px solid var(--color-input-stroke);
+  border-radius: 0.5rem;
+  background-color: var(--color-input-base);
+
+  & .button-presencial-online {
+    border-radius: 0.5rem;
+    height: 3.2rem;
+    background-color: var(--color-input-base);
   }
+}
+
+.radio-presencial-online input {
+  display: none;
+}
+
+.radio-presencial:hover,
+.radio-online:hover {
+  background-color: var(--color-input-stroke);
+
+  & label {
+    font-weight: 600;
+  }
+}
+
+.radio-presencial:hover .radio-image {
+  background-image: url(../../components/building-on.png);
+  background-repeat: no-repeat;
+}
+
+.radio-online:hover .radio-image {
+  background-image: url(../../components/video-on.png);
+  background-repeat: no-repeat;
+}
+
+.radio-presencial label,
+.radio-online label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.radio-presencial .radio-image,
+.radio-online .radio-image {
+  width: 1rem;
+  height: 1rem;
+}
+
+.radio-presencial .radio-image {
+  background-image: url(../../components/building-off.png);
+}
+
+.radio-online .radio-image {
+  background-image: url(../../components/video-off.png);
 }

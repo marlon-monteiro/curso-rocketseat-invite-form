@@ -1,6 +1,12 @@
 main {
-  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
   height: auto;
+  padding: 5rem 8.10rem;
   overflow: auto;
 
   background-color: var(--color-shape-body);
@@ -14,7 +20,33 @@ main {
 }
 
 fieldset {
-  border: none;
+  /* border: none; */
 }
 
+label {
+  font: 0.85rem var(--font-open-sans);
+  color: var(--color-text-body);
+}
 
+input {
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.8rem 0.8rem;
+  font: 1rem var(--font-open-sans);
+  background-color: var(--color-input-base);
+  border: var(--color-input-stroke) solid 1px;
+  border-radius: 0.5rem;
+
+  &::placeholder {
+    color: var(--color-input-placeholder);
+  }
+
+  &[type="date"]{
+    color: var(--color-input-placeholder);
+    appearance: none;
+  }
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
