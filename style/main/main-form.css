@@ -1,3 +1,11 @@
+.about-the-event,
+.customization
+.contact-info
+.terms
+{
+  width: 560px;
+}
+
 .start-finish {
   margin-top: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -83,7 +91,12 @@
 /* Personalização */
 
 .customization .head-form {
+  width: 560px;
   margin-top: 3rem;
+}
+
+.customization .main-color {
+  width: 560px;
 }
 
 .color-range {
@@ -128,8 +141,8 @@
 
 .event-theme {
   margin-top: 1.75rem;
-  width: 35rem;
-  height: 22.5rem;
+  width: 560px;
+  height: 360px;
 }
 
 .wrapper-theme {
@@ -250,9 +263,13 @@
 
 /* Contact info */
 
-fieldset .contact-info {
+.contact-info .head-form {
   width: 560px;
-  height: 246px;
+}
+
+.contact-info .required-field {
+  display: block;
+  width: 560px;
 }
 
 .contact-info .head-form {
@@ -260,16 +277,29 @@ fieldset .contact-info {
 }
 
 .wrapper-email-contact {
+  width: 560px;
   margin-top: 16px;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 16px;
 }
+
+.required-field input:required:invalid {
+  border: 1px solid var(--color-danger);
+  outline: none;
+}
+
+.required-field input:required:valid {
+  border: 1px solid var(--color-input-stroke);
+  outline: none;
+}
+
+
 
 /* Terms */
 
 .terms {
   position: relative;
-  width: 100%;
+  width: 560px;
   height: 228px;
   margin-top: 48px;
   border-top: 1px solid var(--color-input-stroke);

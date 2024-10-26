@@ -2,6 +2,7 @@
 @import url(main-layout.css);
 
 main h1 {
+  width: 560px;
   font: bold 1.75rem var(--font-baloo-2);
   color: var(--color-text-heading);
 
