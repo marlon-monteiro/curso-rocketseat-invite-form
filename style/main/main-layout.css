@@ -47,3 +47,47 @@ input {
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
 }
+
+.color-1 {
+  background-color: var(--color-brand-light);
+}
+
+.color-2 {
+  background-color: var(--color-navy);
+}
+
+.color-3 {
+  background-color: var(--color-purple);
+}
+
+.color-4 {
+  background-color: var(--color-fuschia);
+}
+
+.color-5 {
+  background-color: var(--color-pink);
+}
+
+.color-6 {
+  background-color: var(--color-danger);
+}
+
+.color-7 {
+  background-color: var(--color-orange);
+}
+
+.color-8 {
+  background-color: var(--color-yellow);
+}
+
+.color-9 {
+  background-color: var(--color-lime);
+}
+
+.color-10 {
+  background-color: var(--color-green);
+}
+
+.color-11 {
+  background-color: var(--color-cyan);
+}
